@@ -32,7 +32,7 @@ exports.createPages = async ({ graphql, actions }) => {
           path: edge.node.slug,
           component: require.resolve('./src/templates/blog-post.js'),
           content: {
-            slog: edge.node.slug
+            slug: edge.node.slug
           },
         })
       })
