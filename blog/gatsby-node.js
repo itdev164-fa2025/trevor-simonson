@@ -17,11 +17,11 @@ exports.createPages = async ({ graphql, actions }) => {
         allContentfulBlogPost{
         edges{
           node{
-            id,
             slug
           }
         }
       }
+    }
     `).then(result =>{
       if(result.errors){
         reject(result.errors);
