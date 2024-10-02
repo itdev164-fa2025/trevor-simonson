@@ -13,7 +13,7 @@ require('dotenv').config({
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Blog`,
+    title: `Greatest Blog In the World`,
     description: `The Shiznit`,
     author: `Trevor Simonson`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
