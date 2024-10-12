@@ -6,7 +6,7 @@ import PropTypes from 'prop-types'
 import styled, { ThemeProvider } from "styled-components"
 
 
-import Header from "./header"
+import { Header } from "./Header"
 import "./layout.css"
 import { Gray } from './themes/Gray'
 
