@@ -19,7 +19,6 @@ const StyledHeader = styled.header`
 
 const StyledLink = styled(Link)`
   margin: 0 10px;
-  font-size: var(--font-sm);
   text-decoration: none;
   color: ${({theme})=> theme.variants.header.primary.color};
 `
@@ -60,7 +59,7 @@ const Header = ({ siteTitle }) => (
           </Title>
           <MediaQuery>
             <StyledLink to="/">Home</StyledLink>
-            <StyledLink to="/about">About</StyledLink>
+            <StyledLink to="/aboutus">About</StyledLink>
             <StyledLink to="/contact">Contact</StyledLink>
           </MediaQuery>
           <SearchButton variant='contrast' />
